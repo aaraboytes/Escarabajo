@@ -532,7 +532,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c11b3e4c4f6827c4ea194f37795cdb54, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6c476d06aafc4af458c04a438f516c20, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.274
   m_Pitch: 1
@@ -842,6 +842,7 @@ MonoBehaviour:
   pooledObj:
   - {fileID: 1502861140067290, guid: 822dbcfebd021554abadb81cb6679d75, type: 2}
   - {fileID: 1180607466414498, guid: b44427a82fd525a459809ed3a59d34d6, type: 2}
+  - {fileID: 1645917932201162, guid: 76ecb7e80b0ca5447908107d38af27bc, type: 2}
   amount: 50
 --- !u!4 &526076406 stripped
 Transform:
@@ -1117,6 +1118,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pooledObj:
   - {fileID: 1584868661043862, guid: 2fcfdd8286a847f48a6e56c26811df2b, type: 2}
+  - {fileID: 1559617189252902, guid: 15ac26158b39faf4a91442515c9a6bfe, type: 2}
   amount: 20
 --- !u!1 &560496377
 GameObject:
