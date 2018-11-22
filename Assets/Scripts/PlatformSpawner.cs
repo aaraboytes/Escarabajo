@@ -9,6 +9,7 @@ public class PlatformSpawner : MonoBehaviour {
     public Pool tiles;
     public Pool poop;
     public Pool obstacle;
+    public Pool Butterflies;
     Vector3 firstTileSpawned;
 	void Start () {
         player = Transform.FindObjectOfType<Player>().transform;       
@@ -34,6 +35,10 @@ public class PlatformSpawner : MonoBehaviour {
         else if (Random.value > 0.4f)
         {
             SpawnObj(position + Vector3.up, obstacle);
+        }
+        if (Random.value > 0.9f)
+        {
+            SpawnObj(position + (Vector3.up * Random.Range(2.5f, 3.5f)), Butterflies);
         }
     }
 

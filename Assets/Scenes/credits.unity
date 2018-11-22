@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3529447, g: 0.5736865, b: 0.868659, a: 1}
+  m_IndirectSpecularColor: {r: 0.3529911, g: 0.5737028, b: 0.8686562, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -966,20 +966,20 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 104b0e09aae6bc84fa296f96beafac3b, type: 3}
     m_FontSize: 200
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 300
-    m_Alignment: 3
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "*Andr\xE9s Alejandro Rodr\xEDguez Aboytes\n\n*Oscar Benjam\xEDn Ram\xEDrez\n\n*Esa\xFA
-    De La Rosa G\xF3mez\n\n*David Ram\xEDrez Rangel"
+  m_Text: "Andr\xE9s Alejandro Rodr\xEDguez Aboytes\n\nOscar Benjam\xEDn Ram\xEDrez\n\nEsa\xFA
+    De La Rosa G\xF3mez\n\nDavid Ram\xEDrez Rangel"
 --- !u!222 &777701181
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2102,7 +2102,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 104b0e09aae6bc84fa296f96beafac3b, type: 3}
     m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 0
