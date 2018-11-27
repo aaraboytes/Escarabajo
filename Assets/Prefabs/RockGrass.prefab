@@ -9,45 +9,45 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1584868661043862}
+  m_RootGameObject: {fileID: 1036294743036528}
   m_IsPrefabAsset: 1
---- !u!1 &1584868661043862
+--- !u!1 &1036294743036528
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4343162116083966}
-  - component: {fileID: 33613652735836580}
-  - component: {fileID: 23460357605257470}
-  - component: {fileID: 65309122596634044}
+  - component: {fileID: 4921392421670492}
+  - component: {fileID: 33503024549123274}
+  - component: {fileID: 23694576730433618}
+  - component: {fileID: 65169092820165480}
   m_Layer: 0
-  m_Name: Tronco
+  m_Name: RockGrass
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4343162116083966
+--- !u!4 &4921392421670492
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1584868661043862}
-  m_LocalRotation: {x: -0, y: -0, z: 0.70710677, w: 0.7071068}
-  m_LocalPosition: {x: -3.3985977, y: 0.5, z: -32.236946}
-  m_LocalScale: {x: 57.887424, y: 57.887424, z: 57.887424}
+  m_GameObject: {fileID: 1036294743036528}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: -0.41, z: 0}
+  m_LocalScale: {x: 0.25966603, y: 0.25966614, z: 0.25966614}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.00001}
---- !u!23 &23460357605257470
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23694576730433618
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1584868661043862}
+  m_GameObject: {fileID: 1036294743036528}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -57,7 +57,8 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: ecb34f597333f8e4eb00a7bc9cbaf40d, type: 2}
+  - {fileID: 2100000, guid: f9c1c4e0221d49f419eb94ea1070e6e6, type: 3}
+  - {fileID: 2100002, guid: f9c1c4e0221d49f419eb94ea1070e6e6, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -77,22 +78,22 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33613652735836580
+--- !u!33 &33503024549123274
 MeshFilter:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1584868661043862}
-  m_Mesh: {fileID: 4300000, guid: 816f2ec75dafe8b43aa1a542bc1bc709, type: 3}
---- !u!65 &65309122596634044
+  m_GameObject: {fileID: 1036294743036528}
+  m_Mesh: {fileID: 4300000, guid: f9c1c4e0221d49f419eb94ea1070e6e6, type: 3}
+--- !u!65 &65169092820165480
 BoxCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1584868661043862}
+  m_GameObject: {fileID: 1036294743036528}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.035309043, y: 0.02, z: 0.020321758}
-  m_Center: {x: 0.010731261, y: 0.0008568263, z: -0.0034491227}
+  m_Size: {x: 3.46, y: 7.060467, z: 9.603913}
+  m_Center: {x: -0.51335114, y: -0.76922864, z: 4.2663045}

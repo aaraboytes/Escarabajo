@@ -34,7 +34,7 @@ public class PlatformSpawner : MonoBehaviour {
             SpawnObj(position+Vector3.up,poop);
         else if (Random.value > 0.4f)
         {
-            SpawnObj(position + Vector3.up, obstacle);
+            SpawnObj(position + (Vector3.up *0.5f), obstacle);
         }
         if (Random.value > 0.9f)
         {

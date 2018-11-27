@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33264972207541428}
   - component: {fileID: 23960644495945784}
   - component: {fileID: 65968886103165210}
+  - component: {fileID: 114199632558113330}
   m_Layer: 0
   m_Name: Caca
   m_TagString: Poop
@@ -36,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1992976143319838}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.3574, y: 0.66111, z: 0.78064}
+  m_LocalPosition: {x: 5.682865, y: 0.5, z: -28.961115}
   m_LocalScale: {x: 70.59614, y: 70.59614, z: 70.59614}
   m_Children: []
   m_Father: {fileID: 0}
@@ -96,3 +97,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.017730603, y: 0.00938444, z: 0.01853668}
   m_Center: {x: 0.00017635523, y: 0.0011548656, z: 0.0011111655}
+--- !u!114 &114199632558113330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1992976143319838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37052e34d0d6e8340b1551fc0b85070b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 200
